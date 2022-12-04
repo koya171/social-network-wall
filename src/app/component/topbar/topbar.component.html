@@ -1,0 +1,17 @@
+<div class="nav-contanier">
+<div class="branding">
+  sbook
+</div>
+<div class="account">
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>
+      <span class="material-symbols-outlined">account_circle</span>
+      </mat-icon>
+      <mat-menu #menu="matMenu">
+        <button (click)="logout()" mat-menu-item> Logout </button>
+      </mat-menu>
+  </button>
+</div>
+</div>
+
+

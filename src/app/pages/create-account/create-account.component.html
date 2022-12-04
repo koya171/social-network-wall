@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="form-container">
+    <div class="tittle">
+      Create account
+    </div>
+    <form [formGroup]="createaccount">
+      <mat-form-field appearance="outline">
+        <mat-label>Enter you email</mat-label>
+        <input matInput formControlName="email">
+        <mat-error  *ngIf="createaccount.controls.email.invalid">
+          {{createaccount.controls.email.hasError("required") ? "Email is required": "Please enter a  valid Email"}}
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Enter you User Name</mat-label>
+        <input  matInput formControlName="userName">
+        <mat-error  *ngIf="createaccount.controls.userName">
+          {{createaccount.controls.userName.hasError("required") ? "userName is required": "UserName can't be less than 10 characters"}}
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+          <mat-label>Enter you User Password</mat-label>
+          <input type="password" matInput formControlName="password">
+          <mat-error  *ngIf="createaccount.controls.password">
+            {{createaccount.controls.password.hasError("required") ? "password is required": "password can't be less than 6 characters"}}
+          </mat-error>
+        </mat-form-field>
+    </form>
+    <div class="buttons-container">
+      <button mat-raised-button [disabled]="createaccount.invalid" (click)="create()" class="login-button " color="primary">
+          Create account
+      </button>
+      <p>OR</p>
+      <button routerLink="/login" mat-button>Login</button>
+    </div>
+  </div>
+</div>

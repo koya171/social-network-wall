@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "email": "Narendra@gmail.com",
+      "userName": "Narendra",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "email": "test@yopmail.com",
+      "userName": "test123",
+      "password": "654123",
+      "id": 2
+    },
+    {
+      "email": "test@yopmail.com",
+      "userName": "test123",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "text": "",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-a1d32.appspot.com/o/images%2F1669484608225?alt=media&token=756353f4-5303-4955-bd90-dc9c02bc5bdb",
+      "likes": [],
+      "comments": [
+        {
+          "userName": "Narendra",
+          "comment": "hjj"
+        },
+        {
+          "userName": "Narendra",
+          "comment": "jhkhk"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "text": "",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-a1d32.appspot.com/o/images%2F1669484608185?alt=media&token=da5420b7-fb92-4135-a8e0-c8fcce955a9e",
+      "likes": [],
+      "comments": [],
+      "id": 2
+    },
+    {
+      "text": "",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-a1d32.appspot.com/o/images%2F1669484834930?alt=media&token=785d42b9-7dd9-457b-97b5-7511beee4a23",
+      "likes": [],
+      "comments": [],
+      "id": 3
+    },
+    {
+      "userName": "test123",
+      "text": "hiiiii",
+      "imageUrl": "",
+      "like": [],
+      "comments": [],
+      "id": 4
+    },
+    {
+      "text": "ffgfdgg",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-a1d32.appspot.com/o/images%2F1669493063085?alt=media&token=e6d283e2-d1c6-403d-9e8f-a32ee3e12d56",
+      "likes": [
+        1
+      ],
+      "comments": [],
+      "id": 5
+    },
+    {
+      "text": "hiiii",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-a1d32.appspot.com/o/images%2F1670091277977?alt=media&token=63280a60-90b7-4293-971f-65e28e5b1178",
+      "likes": [],
+      "comments": [],
+      "id": 6
+    },
+    {
+      "text": "hiiii",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-a1d32.appspot.com/o/images%2F1670091281401?alt=media&token=8178c608-ed5d-49d6-95bb-2e024d0b709a",
+      "likes": [
+        1
+      ],
+      "comments": [],
+      "id": 7
+    },
+    {
+      "text": "",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-a1d32.appspot.com/o/images%2F1670092106667?alt=media&token=3d2c9366-2630-411c-bc6c-66bdbe6509cd",
+      "likes": [
+        1
+      ],
+      "comments": [],
+      "id": 8
+    }
+  ]
+}
